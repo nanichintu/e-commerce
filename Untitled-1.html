@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Untitled.css">
+    <script src="https://kit.fontawesome.com/7dac5318b3.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <a href="#" >Home</a>
+            <a href="#">Special-Items</a>
+            <a href="#">Items</a>
+            <a href="#">Contact</a>
+            <i class="fa-solid fa-cart-shopping" id="cart" onclick="Myfunction()">Cart</i>
+        </ul>
+        <div class="gallery" id="display">
+            <i class="fa-solid fa-cart-shopping" id="cart-shopping" >Cart</i>
+            <a href="#" id="close" onclick="closeitem()">Close</a>
+         </div>
+        <div class="main">
+            <h1 id="heading">Veg & Non-Vegetarian</h1><br>
+               <p id="paragraph">we are preparing veg and non-veg items with quality.<br>we 
+                provide delivery with sufficient quantity satisfaction 
+                with customer</p><br>
+        <button>Order now</button>
+        </div>
+                 
+        <div class="shopping-items">
+            <h2 id="special-items">Special-items</h2>
+            <div class="products">
+                <img src="fish biryani.jpg" id="image1">
+                 <h3>Fish-biryani</h3>
+                 <h3>₹ 120</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+            <div class="products">
+                <img src="pizza.jpg" id="image1">
+                 <h3>Pizza</h3>
+                 <h3>₹ 120</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+            <div class="products">
+                <img src="chicken biryani.jpg" id="image1">
+                 <h3>Chicken-biryani</h3>
+                 <h3>₹ 150</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+            <div class="products">
+                <img src="parrota.jpg" id="image1">
+                 <h3>Parrota</h3>
+                 <h3>₹ 100</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+
+            <div class="products">
+                <img src="Chicken-Burger-square-.jpg" id="image1">
+                 <h3>Chicken-Burger</h3>
+                 <h3>₹ 100</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+
+            <div class="products">
+                <img src="sandwich-recipe.jpg" id="image1">
+                 <h3>Sandwich</h3>
+                 <h3>₹ 100</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+
+            <div class="products">
+                <img src="chicken-manchurian.jpg" id="image1">
+                 <h3>Chicken-manchurian</h3>
+                 <h3>₹ 100</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+
+            <div class="products">
+                <img src="fried-chicken.jpg" id="image1">
+                 <h3>Fried-chicken</h3>
+                 <h3>₹ 100</h3>
+                 <a  class="Add-cart" href="#">Add to cart</a>
+            </div>
+       </div>
+
+                <h1 id="client">Enquiry now</h1>
+                        <div class="groupimage">
+                            <img src="person.jpg" id="chill">
+                          </div>
+                            
+                          <div class="form-box">
+                            <h2 id="contact">Contact-us</h2><br><br>
+                             <form action="#" method="get">
+
+                                <input type="text"  placeholder="Enter your Name" >&nbsp;&nbsp;
+                           
+
+                                <input type="tel"  placeholder="Enter phone Number" >&nbsp;&nbsp;
+                             
+
+                                <input type="text" placeholder="Item-name">&nbsp;&nbsp;
+                           
+
+                                <textarea name="" id="Message" cols="7" rows="6"
+                                 placeholder="Enter the issue your item"></textarea>
+                                 
+
+                                <input type="submit" id="submit" >
+                    
+                             </form>
+                         </div>
+                         <div class="showreview">
+                           
+                               <div class="user-text" class="tabcontent"class="mySlides" id="London">
+                                <p>we are preparing veg and non-veg items with quality.<br>we 
+                                    provide delivery with sufficient quantity satisfaction 
+                                    with customer</p>
+                                <h3>@unknow_person</h3>
+                               </div>
+                               
+                               <div class="user-text"  class="mySlides" id="paries">
+                                <p>we are preparing veg and non-veg items with quality.<br>we 
+                                    provide delivery with sufficient quantity satisfaction 
+                                    with customer</p>
+                                <h3>@santhosh</h3>
+                               </div>
+
+                               <div class="user-text"  class="mySlides" id="UK">
+                                <p>we are preparing veg and non-veg items with quality.<br>we 
+                                    provide delivery with sufficient quantity satisfaction 
+                                    with customer</p>
+                                <h3>@devas_kanna</h3>
+                               </div>
+                               
+                        </div> 
+                        <div class="control">
+                             <span class="round" class="tablinks" onclick="opencity(event, 'London')" id="defaultOpen"></span>
+                             <span class="round" class="tablinks" onclick="opencity(event, 'paries')"></span>
+                             <span class="round" class="tablinks" onclick="opencity(event, 'UK')"></span>
+                        </div>  
+                        <div class="footer">
+
+                        <div class="group">
+                            <h4 id="address"><b>Address</b></h4>
+                        <h5 >15-31-31, Plot. 67, K P H B Phase 1, Hyderabad, 
+                            Telangana 500085.</h5>
+                        <a href="tel:7893232655" id="callme">call-us</a>
+                        
+                        <div class="social-icons">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        </div>
+                </div>                    
+            </div>   
+        </div>
+        
+</body>
+</html>
